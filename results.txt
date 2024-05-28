@@ -1,0 +1,96 @@
+avahi       1597  0.0  0.1   8664  4352 ?        Ss   16:22   0:00 avahi-daemon: running [ubuntu.local]
+ubuntu      1982  0.0  0.3  21300 12788 ?        Ss   16:22   0:01 /usr/lib/systemd/systemd --user
+ubuntu      1983  0.0  0.0  21456  3724 ?        S    16:22   0:00 (sd-pam)
+ubuntu      1997  0.0  0.3 124668 15004 ?        Ssl  16:22   0:00 /usr/bin/pipewire
+ubuntu      1998  0.0  0.1 106404  5632 ?        Ssl  16:22   0:00 /usr/bin/pipewire -c filter-chain.conf
+ubuntu      2000  0.0  0.4 415976 19072 ?        Ssl  16:22   0:00 /usr/bin/wireplumber
+ubuntu      2001  0.0  0.3 124904 15264 ?        Ssl  16:22   0:00 /usr/bin/pipewire-pulse
+ubuntu      2003  0.0  0.2 325144  9728 ?        Ssl  16:22   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+ubuntu      2008  0.1  0.1  10640  6272 ?        Ss   16:22   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ubuntu      2027  0.0  0.1 244372  6144 tty2     Ssl+ 16:22   0:00 /usr/libexec/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ubuntu      2043  6.7  3.5 386988 140568 tty2    Sl+  16:22   1:10 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+ubuntu      2251  0.0  0.4 306860 16640 tty2     Sl+  16:22   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ubuntu      2359  0.0  0.1 382984  7936 ?        Ssl  16:22   0:00 /usr/libexec/at-spi-bus-launcher
+ubuntu      2367  0.0  0.1   9608  4864 ?        S    16:22   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+ubuntu      2479  0.0  0.1 162644  6912 ?        Ssl  16:22   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+ubuntu      2480  0.0  0.1 100208  5632 ?        Ssl  16:22   0:00 /usr/libexec/gnome-session-ctl --monitor
+ubuntu      2493  0.0  0.1 322928  7680 ?        Ssl  16:22   0:00 /usr/libexec/gvfsd
+ubuntu      2505  0.0  0.1 468372  7040 ?        Sl   16:22   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ubuntu      2529  0.0  0.4 529156 17920 ?        Ssl  16:22   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ubuntu      2563 44.2  9.2 5096272 370252 ?      Ssl  16:22   7:37 /usr/bin/gnome-shell
+ubuntu      2624  0.1  2.7 1708116 110808 ?      Sl   16:22   0:01 /usr/libexec/mutter-x11-frames
+ubuntu      2643  0.0  0.1 236036  7936 ?        Sl   16:22   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ubuntu      2674  0.0  0.4 654772 17408 ?        Sl   16:22   0:00 /usr/libexec/gnome-shell-calendar-server
+ubuntu      2675  0.0  0.1 317968  6144 ?        Ssl  16:22   0:00 /usr/libexec/xdg-permission-store
+ubuntu      2691  0.0  1.0 660572 42624 ?        Ssl  16:22   0:00 /usr/libexec/evolution-source-registry
+ubuntu      2697  0.0  0.1 230228  5760 ?        Ssl  16:22   0:00 /usr/libexec/dconf-service
+ubuntu      2704  0.0  0.6 2534120 26952 ?       Sl   16:22   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ubuntu      2731  0.3  0.3 398608 13072 ?        Ssl  16:22   0:03 /usr/bin/ibus-daemon --panel disable --xim
+ubuntu      2734  0.0  0.1 392236  6656 ?        Ssl  16:22   0:00 /usr/libexec/gsd-a11y-settings
+ubuntu      2736  0.0  0.6 424144 25052 ?        Ssl  16:22   0:00 /usr/libexec/gsd-color
+ubuntu      2738  0.0  0.3 440376 12032 ?        Ssl  16:22   0:00 /usr/libexec/gsd-datetime
+ubuntu      2740  0.0  0.1 467588  7552 ?        Ssl  16:22   0:00 /usr/libexec/gsd-housekeeping
+ubuntu      2744  0.0  0.6 496684 24308 ?        Ssl  16:22   0:00 /usr/libexec/gsd-keyboard
+ubuntu      2746  0.0  0.7 679040 29800 ?        Ssl  16:22   0:00 /usr/libexec/gsd-media-keys
+ubuntu      2748  0.0  0.6 534696 27920 ?        Ssl  16:22   0:00 /usr/libexec/gsd-power
+ubuntu      2749  0.0  0.2 332300 11392 ?        Ssl  16:22   0:00 /usr/libexec/gsd-print-notifications
+ubuntu      2750  0.0  0.1 539744  6656 ?        Ssl  16:22   0:00 /usr/libexec/gsd-rfkill
+ubuntu      2751  0.0  0.1 318220  5888 ?        Ssl  16:22   0:00 /usr/libexec/gsd-screensaver-proxy
+ubuntu      2752  0.0  0.2 551908 11392 ?        Ssl  16:22   0:00 /usr/libexec/gsd-sharing
+ubuntu      2753  0.0  0.1 394536  7680 ?        Ssl  16:22   0:00 /usr/libexec/gsd-smartcard
+ubuntu      2754  0.0  0.2 402356  9472 ?        Ssl  16:22   0:00 /usr/libexec/gsd-sound
+ubuntu      2755  0.0  0.6 423656 24864 ?        Ssl  16:22   0:00 /usr/libexec/gsd-wacom
+ubuntu      2756  0.0  0.6 425344 26756 ?        Ssl  16:22   0:00 /usr/libexec/gsd-xsettings
+ubuntu      2779  0.0  0.1 305484  7040 ?        Sl   16:22   0:00 /usr/libexec/gsd-disk-utility-notify
+ubuntu      2784  0.1  1.4 815020 59292 ?        Sl   16:22   0:01 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ubuntu      2871  0.0  0.3 424864 14976 ?        Sl   16:22   0:00 /usr/libexec/gsd-printer
+ubuntu      2885  0.0  0.5 555352 23808 ?        Sl   16:22   0:00 /usr/libexec/goa-daemon
+ubuntu      2886  0.0  0.2 398036 10112 ?        Ssl  16:22   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ubuntu      2918  0.0  0.2 397788  9216 ?        Sl   16:22   0:00 /usr/libexec/goa-identity-service
+ubuntu      2946  0.0  0.6 1374632 24192 ?       Ssl  16:22   0:00 /usr/libexec/evolution-calendar-factory
+ubuntu      2948  0.0  0.1 318452  6528 ?        Ssl  16:22   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ubuntu      2956  0.0  0.1 319420  6912 ?        Ssl  16:22   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ubuntu      2975  0.0  0.1 318432  6656 ?        Ssl  16:22   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ubuntu      2980  0.0  0.2 398036  8064 ?        Ssl  16:22   0:00 /usr/libexec/gvfs-afc-volume-monitor
+ubuntu      2995  0.0  0.1 245000  6400 ?        Ssl  16:22   0:00 /usr/libexec/gvfsd-metadata
+ubuntu      2999  0.0  0.6 2607844 26792 ?       Sl   16:22   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+ubuntu      3011  0.0  0.7 834124 30080 ?        Ssl  16:22   0:00 /usr/libexec/evolution-addressbook-factory
+ubuntu      3067  0.0  0.2 618104  8832 ?        Sl   16:22   0:00 /usr/libexec/gvfsd-trash --spawner :1.22 /org/gtk/gvfs/exec_spaw/0
+ubuntu      3120  0.0  0.3 710332 14524 ?        Ssl  16:22   0:00 /usr/libexec/xdg-desktop-portal
+ubuntu      3127  0.0  0.1 692684  7296 ?        Ssl  16:22   0:00 /usr/libexec/xdg-document-portal
+ubuntu      3144  0.0  0.1 319124  7296 ?        Sl   16:22   0:00 /usr/libexec/ibus-dconf
+ubuntu      3145  0.3  0.7 353812 29420 ?        Sl   16:22   0:03 /usr/libexec/ibus-extension-gtk3
+ubuntu      3150  0.0  0.6 275520 24448 ?        Sl   16:22   0:00 /usr/libexec/ibus-x11 --kill-daemon
+ubuntu      3153  0.0  0.1 319088  7040 ?        Sl   16:22   0:00 /usr/libexec/ibus-portal
+ubuntu      3154  0.0  0.7 817636 28740 ?        SNsl 16:22   0:00 /usr/libexec/tracker-miner-fs-3
+ubuntu      3156  0.0  2.4 1851424 99164 ?       Ssl  16:22   0:00 /usr/libexec/xdg-desktop-portal-gnome
+ubuntu      3211  0.0  0.1 245432  7168 ?        Sl   16:22   0:00 /usr/libexec/ibus-engine-simple
+ubuntu      3225  0.0  0.6 424168 25820 ?        Ssl  16:22   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ubuntu      3350  0.0  0.2  38952 11392 ?        Ss   16:23   0:00 /snap/snapd-desktop-integration/157/usr/bin/snapd-desktop-integration
+ubuntu      3514  0.0  2.2 1357476 90088 ?       Sl   16:23   0:00 /snap/snapd-desktop-integration/157/usr/bin/snapd-desktop-integration
+root        3715  0.0  0.0  18608  3712 ?        Ss   16:23   0:00 /bin/bash /snap/ubuntu-desktop-bootstrap/171/bin/subiquity-server
+root        3733  0.5  1.9 703688 79896 ?        Sl   16:23   0:05 /snap/ubuntu-desktop-bootstrap/171/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-bootstrap/171/etc/subiquity/postinst.d
+ubuntu      4016  0.0  0.6 571788 26368 ?        Sl   16:23   0:00 /usr/bin/update-notifier
+ubuntu      4578  0.1  1.4 3012148 59620 ?       Sl   16:29   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+ubuntu      4591  8.0  8.4 2562736 339636 ?      Sl   16:29   0:52 /usr/bin/nautilus --gapplication-service
+ubuntu      4666  0.0  0.2 323160  8320 ?        Sl   16:29   0:00 /usr/libexec/gvfsd-recent --spawner :1.22 /org/gtk/gvfs/exec_spaw/1
+ubuntu      4852  0.0  0.5 1836572 20440 ?       Sl   16:29   0:00 /usr/bin/snap userd
+ubuntu      5115  7.9  9.4 3140088 379536 ?      Sl   16:32   0:36 /snap/firefox/4173/usr/lib/firefox/firefox
+ubuntu      5340  0.0  1.2 210688 48128 ?        Sl   16:32   0:00 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -parentBuildID 20240419214016 -prefsLen 20609 -prefMapSize 238388 -appDir /snap/firefox/4173/usr/lib/firefox/browser {73b60bdf-7e9e-4607-87bf-576e7ddf37a5} 5115 true socket
+ubuntu      5386  0.1  2.3 2432256 94596 ?       Sl   16:32   0:00 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 22942 -prefMapSize 238388 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {ff9f8405-247f-436b-8977-ef05016bd781} 5115 true tab
+ubuntu      5411  0.2  3.0 2452188 122300 ?      Sl   16:32   0:01 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 24218 -prefMapSize 238388 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {364068c8-df0c-4a9a-87ae-a03b5c1209cd} 5115 true tab
+ubuntu      6070  0.0  1.3 344368 55168 ?        Sl   16:32   0:00 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -parentBuildID 20240419214016 -sandboxingKind 0 -prefsLen 32234 -prefMapSize 238388 -appDir /snap/firefox/4173/usr/lib/firefox/browser {d6db3153-6c17-47ca-b262-1191b367e5b6} 5115 true utility
+ubuntu      6072  1.4  3.9 2496808 158052 ?      Sl   16:32   0:06 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 29840 -prefMapSize 238388 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {837a10b1-e57e-404a-a598-8dee4fb78110} 5115 true tab
+ubuntu      6088  1.2  3.2 2505376 129784 ?      Sl   16:32   0:05 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29840 -prefMapSize 238388 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {eb0dcf91-41c2-4c6f-812d-a40fa8a7aa45} 5115 true tab
+ubuntu      6099  0.0  1.8 2391708 73316 ?       Sl   16:32   0:00 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 29840 -prefMapSize 238388 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {3e2face2-61bb-4a44-aec7-cc254e1e4f64} 5115 true tab
+ubuntu      6175  0.0  1.8 2391704 73592 ?       Sl   16:32   0:00 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 30059 -prefMapSize 238388 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {6990e1dc-0771-4d3d-b9e7-15558ac6ae0b} 5115 true tab
+ubuntu      6205  0.0  1.3 343344 54272 ?        Sl   16:32   0:00 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -parentBuildID 20240419214016 -prefsLen 32513 -prefMapSize 238388 -appDir /snap/firefox/4173/usr/lib/firefox/browser {e36dc78b-aa46-45d2-844f-754e64f4748c} 5115 true rdd
+ubuntu      6210  0.0  1.8 2391704 73724 ?       Sl   16:32   0:00 /snap/firefox/4173/usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 30059 -prefMapSize 238388 -jsInitLen 234952 -parentBuildID 20240419214016 -greomni /snap/firefox/4173/usr/lib/firefox/omni.ja -appomni /snap/firefox/4173/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/4173/usr/lib/firefox/browser {4b9a7f67-4084-4124-8d1c-69c8b55ad2ed} 5115 true tab
+ubuntu      6278 48.7  6.3 2500856 254616 ?      Sl   16:34   2:52 /usr/bin/gnome-text-editor
+ubuntu      6323  0.0  0.2 470916  8448 ?        Sl   16:34   0:00 /usr/libexec/gvfsd-network --spawner :1.22 /org/gtk/gvfs/exec_spaw/2
+ubuntu      6340  0.0  0.2 399208  9088 ?        Sl   16:34   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.22 /org/gtk/gvfs/exec_spaw/4
+ubuntu      6783  1.3  1.3 849588 53100 ?        Ssl  16:38   0:00 /usr/libexec/gnome-terminal-server
+ubuntu      6794  0.0  0.1  19692  5120 pts/0    Ss   16:38   0:00 bash
+ubuntu      6825  0.0  0.0  18608  3584 pts/0    S+   16:39   0:00 /bin/bash ./lab_zinovev_1.sh
+ubuntu      6826  100  0.1  22416  4608 pts/0    R+   16:39   0:00 ps aux
+ubuntu      6827  0.0  0.0  17812  2304 pts/0    S+   16:39   0:00 grep ubuntu
