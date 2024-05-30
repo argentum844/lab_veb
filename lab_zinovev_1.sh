@@ -3,3 +3,5 @@
 ps aux | grep $(whoami)>results.txt
 
 echo "Process of user: $(whoami)"
+
+cat results.txt
